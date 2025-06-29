@@ -4,6 +4,8 @@ import PopularDishes from './PopularDishes'
 import Healthy from './Healthy'
 import Special from './Special'
 import Devilery from './Delivery'
+import BigOffers from './BigOffers'
+
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
       <Banner/>
       <PopularDishes/>
       <Healthy/>
+      <BigOffers/>
       <Special/>
       <Devilery/>
     </body>

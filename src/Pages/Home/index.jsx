@@ -7,7 +7,7 @@ import Devilery from './Delivery'
 
 export default function Home() {
   return (
-    <body className='bg-[#FFF8EE] '>
+    <body className='bg-[#FFF8EE] w-full overflow-x-hidden max-w-screen '>
       <Banner/>
       <PopularDishes/>
       <Healthy/>

@@ -12,7 +12,7 @@ export default function Home() {
       <PopularDishes/>
       <Healthy/>
       <Special/>
-      {/* <Devilery/> */}
+      <Devilery/>
     </body>
   )
 }
